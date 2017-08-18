@@ -17,7 +17,7 @@ public class Aluno {
 		System.out.println("Hello World");
 	}
 	
-	public void setNome(String nome) {
+	/*public void setNome(String nome) {
 		this.nome = nome;
 	}
 	
@@ -27,7 +27,7 @@ public class Aluno {
 	
 	public void setIdade(int idade) {
 		this.idade = idade;
-	}
+	}*/
 	
 	public void notaFinal(float p1, float p2) {
 		this.media = (p1 + p2) / 2;
