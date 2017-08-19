@@ -1,4 +1,4 @@
-package Exercicio3;
+package br.edu.fatecfranca.ex3;
 
 public class TestaProduto {
 

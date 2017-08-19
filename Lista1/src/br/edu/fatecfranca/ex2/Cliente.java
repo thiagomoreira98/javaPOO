@@ -1,4 +1,4 @@
-package Exercicio2;
+package br.edu.fatecfranca.ex2;
 
 public class Cliente {
 	
@@ -15,11 +15,11 @@ public class Cliente {
 	}
 	
 	public void dadosCliente() {
-		System.out.println("Numero Da Conta: "+this.numeroConta);
-		System.out.println("Numero Da Agencia: "+this.numeroAgencia);
+		System.out.println("Numero da Agencia: "+this.numeroAgencia);
+		System.out.println("Numero da Conta: "+this.numeroConta);
 		System.out.println("Nome: "+this.nome);
 		System.out.println("Saldo: "+this.saldo);
-		System.out.println("-------------------------------------------------------------");
+		System.out.println("-------------------------------------------");
 	}
 	
 	public void realizarDeposito(int d) {
