@@ -1,4 +1,4 @@
-package Exercicio4;
+package br.edu.fatecfranca.ex4;
 
 public class TestaRio {
 

@@ -1,4 +1,4 @@
-package Exercicio3;
+package br.edu.fatecfranca.ex3;
 
 public class Produto {
 	
@@ -36,9 +36,9 @@ public class Produto {
 	
 	public void mostrar() {
 		System.out.println("ID: "+this.id);
-		System.out.println("Descrição: "+this.descricao);
+		System.out.println("Descriï¿½ï¿½o: "+this.descricao);
 		System.out.println("Quantidade: "+this.qtde);
-		System.out.println("Preço: "+this.preco);
+		System.out.println("Preï¿½o: "+this.preco);
 		System.out.println("----------------------------------------------");
 	}
 
