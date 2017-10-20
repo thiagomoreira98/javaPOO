@@ -5,7 +5,7 @@ public class Passageiro {
     
     //associação
     private Reserva reserva;
-
+    
     public Passageiro() {
     }
 

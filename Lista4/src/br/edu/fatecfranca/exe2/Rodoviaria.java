@@ -59,7 +59,7 @@ public class Rodoviaria {
         return this.onibus.remove(onibus);
     }
     
-    public boolean desvinculaPassageiroOnibus(Passageiro passageiro. Onibus onibus) {
+    public boolean desvinculaPassageiroOnibus(Passageiro passageiro, Onibus onibus) {
         if(this.onibus.contains(onibus)) {
             onibus.desvincularPassageiro(passageiro);
             return true;
