@@ -4,7 +4,12 @@ import br.edu.fatecfranca.exe6.Conta;
 public class Cartao extends Conta{
     
     private String senha;
-    public Cartao(String nome, float salario, float saldo, float limite, int numeroConta) {
+    
+//    public Cartao(String nome, float salario, float saldo, float limite, int numeroConta) {
+//        
+//    }
+    
+    public Cartao() {
         
     }
     
