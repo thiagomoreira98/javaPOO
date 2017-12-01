@@ -1,24 +1,36 @@
 package br.edu.fatecfranca.exe1;
+public class Pessoa extends Animal implements Professor, Cidadao, Contribuinte {
 
-public class Pessoa extends Animal implements Cidadao, Contribuinte, Professor{
-    
-    @Override
-    public String vota() {
-        return "Pessoa votando ...";
-    }
-    
-    @Override
-    public String tiraRg() {
-        return "Pessoa tirando o RG ...";
-    }
-    
     @Override
     public String ensina() {
-        return "Pessoa ensinando ...";
+        return "Pessoa ensinando";
     }
-    
+
     @Override
-    public String trabalhar() {
-        return "Pessoa trabalha";
+    public String trabalha() {
+        return "Pessoa trabalhando";
     }
+
+    @Override
+    public String vota() {
+        return "Pessoa votando";
+    }
+
+    @Override
+    public String getRG() {
+        return "Pessoa tirando RG";
+    }
+
+    @Override
+    public String pagarIR() {
+        return "Pessoa pagando IR";
+    }
+
+    @Override
+    public String getCPF() {
+        return "Pessoa tirando CPF";
+    }
+
+
 }
+    

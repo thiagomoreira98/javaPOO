@@ -1,5 +1,4 @@
 package br.edu.fatecfranca.exe1;
-
-public class Professor {
-    
+public interface Professor extends Empregado{
+    public String ensina();
 }
